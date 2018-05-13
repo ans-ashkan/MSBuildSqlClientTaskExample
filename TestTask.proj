@@ -1,0 +1,6 @@
+<Project DefaultTargets="Build">
+  <UsingTask TaskName="TestTasks.TestSqlClient" AssemblyFile=".\Task\bin\Debug\netcoreapp2.0\publish\TestTask.dll" />
+  <Target Name="Build">
+    <TestSqlClient />
+  </Target>
+</Project>
